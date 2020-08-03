@@ -215,3 +215,27 @@ function transactWithDis(purchases) {
 console.log("\n== Task 2 ==");
 transactWithDis(test_input);
 console.log("== End of Task 2 ==");
+
+/* Output
+
+== Task 1 ==
+Quantity: 1x | Item: pringles | Unit Price: $4.20 | Total cost: $4.20
+Quantity: 2x | Item: sprite | Unit Price: $2.00 | Total cost: $4.00
+Quantity: 3x | Item: apple | Unit Price: $1.00 | Total cost: $3.00
+Quantity: 1x | Item: coca cola | Unit Price: $1.00 | Total cost: $1.00
+Grand Total: $12.20
+== End of Task 1 ==
+
+== Task 2 ==
+Discounts Available at start:
+Discounts Available after setting discounts:
+Item: apple | Min: 2 | Discount: 0.1
+Item: sprite | Min: 2 | Discount: 0.2
+Quantity: 1x | Item: pringles | Unit Price: $4.20 | Total cost: $4.20
+Quantity: 2x | Item: sprite | Unit Price: $1.60 | Total cost: $3.20
+Quantity: 3x | Item: apple | Unit Price: $0.90 | Total cost: $2.70
+Quantity: 1x | Item: coca cola | Unit Price: $1.00 | Total cost: $1.00
+Grand Total: $11.10
+== End of Task 2 ==
+
+*/
